@@ -1,0 +1,101 @@
+:root {
+    --blue-color: #366AC9;
+    --light-blue-color: #DBE6F0;
+    --yellow-color: #EFA943;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 3000px;
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #24292d;
+}
+
+/* ------------------------- */
+.navbar .navbar-brand .nav-link {
+    background-color: var(--light-blue-color);
+}
+.limitless .title {
+    font-size: 3.5rem;
+}
+.limitless .image {
+    background-color: var(--blue-color);
+}
+.counters .courses {
+    background-color: #FDF6E0;
+}
+.counters .tutors {
+    background-color: #E8EBED;
+}
+.counters .students {
+    background-color: #F0ECF9;
+}
+.counters .certificate {
+    background-color: #E7F6F8;
+}
+.counters .courses svg {
+    color: #F3C32D;
+}
+.counters .tutors svg {
+    color: #333333;
+}
+.counters .students svg {
+    color: #6F42C1;
+}
+.counters .certificate svg {
+    color: #50A3B9;
+}
+.popular {
+    /* background-color: #FAFAFB; */
+}
+.popular .nav-pills {
+    background-color: #E6F0F9;
+}
+.popular .card {
+    height: 100% !important;
+}
+.popular .card .level span {
+    font-size: 13px;
+    padding: 0.125rem 0.5rem;
+}
+.popular .card .level .heart {
+    color: #333;
+}
+.popular .card .level.all-level span {
+    background-color: #F0ECF9;
+    color: #6F42C1;
+}
+.popular .card .level.beginner span {
+    background-color: #E6F8F3;
+    color: #6BD6B6;
+}
+.popular .card .card-title a {
+    font-size: 1rem;
+    font-size: 1.3125rem !important;
+    color: #18113c;
+}
+.popular .card .card-body .details {
+    font-size: 14px;
+}
+.popular .card .card-body .stars svg {
+    color: var(--yellow-color);
+    font-size: 13px;
+}
+.popular .card .card-body .stars .rate {
+    color: #444;
+    font-size: 15px;
+}
+.popular .card .card-body .stars .num {
+    font-size: 14px;
+}
+.popular .card .card-body .card-footer .clock svg {
+    color: #D62C40;
+}
+.popular .card .card-body .card-footer .lectures svg {
+    color: #EB7D25;
+}
